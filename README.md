@@ -1,5 +1,5 @@
 ubConvert.py
-Weights and measures conversion module
+Weights and Measures conversion module
 
 - Utility_Belt Designs, Tacoma, WA
 - www.pythonOver60.rocks
