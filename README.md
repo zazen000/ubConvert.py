@@ -45,8 +45,7 @@ ubConvert Unit Conversion Classes -
       lt_years = 2
       light_years_to_miles(lt_years, 0, 1) = 11,758,000,000,000
 
-  ..................................................................
-  Example:
+ Usage Example:
 
       import ubConvert as ub
 
@@ -54,7 +53,6 @@ ubConvert Unit Conversion Classes -
       oz = weights.grams_to_ounces(28)
       oz = 1
 
-  ..................................................................
 
   Functions include: note: use all lower case when calling functions, right?
 
