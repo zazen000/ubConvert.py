@@ -1,10 +1,10 @@
 # ubConvert.py
 Weights and measures conversion module
 
-Utility_Belt Designs, Tacoma, WA
-www.pythonOver60.rocks
-@author: ZennDogg
-zenndogg@outlook.com
+- Utility_Belt Designs, Tacoma, WA
+- www.pythonOver60.rocks
+- @author: ZennDogg
+- zenndogg@outlook.com
 
 ubConvert Unit Conversion Classes -
 
