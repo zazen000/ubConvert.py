@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 # Created on Thu May 10 16:04:56 2019
-
+  
 # @author: David W Robinson Jr
 from datetime import datetime, timedelta, date
 import time
 
 def main():
-    pass
-
-
-def ubConvert():
     '''
     Unit Conversions - Basic unit conversions for the following modes:
 
