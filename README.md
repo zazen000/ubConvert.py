@@ -1,11 +1,11 @@
 # ubConvert.py
 Weights and Measures conversion module
 
-    - Utility_Belt Designs, Tacoma, WA
-    - www.pythonOver60.rocks
-    - @author: ZennDogg
-    - zenndogg@outlook.com
-
+    Utility_Belt Designs, Tacoma, WA
+    www.pythonOver60.rocks
+    @author: ZennDogg
+    zenndogg@outlook.com
+    
     ubConvert Unit Conversion Classes -
 
       - Temperatures()
@@ -14,38 +14,38 @@ Weights and Measures conversion module
       - Volumes()
       - Times()
 
-      The functions for most classes can be called in two ways.
-      First example, to convert Kelvin to Fahrenheit from class Temperatures():
+   The functions for most classes can be called in two ways.
+   First example, to convert Kelvin to Fahrenheit from class Temperatures():
 
           kelvin = 278.967
           kelvin_to_fahrenheit(kelvin) = 42.74059999999997
 
-      The second way is with a number representing the rounding factor, where:
+   The second way is with a number representing the rounding factor, where:
           - 0=integer, 1=one decimal place, 2=two decimal places, etc.,
 
           kelvin = 278.967
           kelvin_to_fahrenheit(kelvin, 2) = 42.74, or,
           kelvin_to_fahrenheit(kelvin, 0) = 43
 
-      For converting and formatting Light-Years and Astronomical Units to kilometers
-      or miles, things are a little different. The first way returns an integer:
+    For converting and formatting Light-Years and Astronomical Units to kilometers
+    or miles, things are a little different. The first way returns an integer:
 
           lt_years = 2
           light_years_to_miles(lt_years) = 11758000000000
 
-      The second instance returns a number with requested decimal places in
-      scientific notation:
+    The second instance returns a number with requested decimal places in
+    scientific notation:
 
           lt_years = 2
           light_years_to_miles(lt_years, 4) = 1.1758e+13
 
-      Because the answers are such large integers, the third way returns the number
-      in comma separated format for easier reading (second arg = 0, third arg = 1):
+    Because the answers are such large integers, the third way returns the number
+    in comma separated format for easier reading (second arg = 0, third arg = 1):
 
           lt_years = 2
           light_years_to_miles(lt_years, 0, 1) = 11,758,000,000,000
 
-     Usage Example:
+    Usage Example:
 
           import ubConvert as ub
 
@@ -54,10 +54,10 @@ Weights and Measures conversion module
           oz = 1
 
 
-      Functions include: 
-      - note: use all lower case when calling functions, right?
+    Functions include: 
+     - note: use all lower case when calling functions, right?
 
-      - Temperatures() function list
+    - Temperatures() function list
 
           - Kelvin_to_Fahrenheit
           - Kelvin_to_Celsius
