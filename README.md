@@ -21,7 +21,7 @@ ubConvert Unit Conversion Classes -
       kelvin_to_fahrenheit(kelvin) = 42.74059999999997
 
   The second way is with a number representing the rounding factor, where:
-      - 0 = integer, 1 = one decimal place, 2 = two decimal places, etc.,
+      - 0 = integer, 1=one decimal place, 2=two decimal places, etc.,
 
       kelvin = 278.967
       kelvin_to_fahrenheit(kelvin, 2) = 42.74, or,
