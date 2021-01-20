@@ -54,7 +54,8 @@ ubConvert Unit Conversion Classes -
       oz = 1
 
 
-  Functions include: note: use all lower case when calling functions, right?
+  Functions include: 
+  - note: use all lower case when calling functions, right?
 
   - Temperatures() function list
 
@@ -112,3 +113,5 @@ ubConvert Unit Conversion Classes -
 
      - Date_to_Timestamp
      - Timestamp_to_Date
+     
+  - note: use all lower case when calling functions, right?
