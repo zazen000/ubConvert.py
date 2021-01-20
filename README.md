@@ -56,31 +56,29 @@ ubConvert Unit Conversion Classes -
 
   Functions include: note: use all lower case when calling functions, right?
 
-  - Temperatures() function list            - Weights() function list
+  - Temperatures() function list
 
-      - Kelvin_to_Fahrenheit                      - Grams_to_Ounces
-      - Kelvin_to_Celsius                         - Ounces_to_Grams
-      - Fahrenheit_to_Kelvin                      - Kilograms_to_Pounds
-      - Fahrenheit_to_Celsius                     - Pounds_to_Kilograms
-      - Celsius_to_Fahrenheit                     - Kilograms_to_Tons
-      - Celsius_to_Kelvin                         - Tons_to_Kilograms
-      - Rankine_to_Fahrenheit                     - Tons_to_Metric_Tonnes
-      - Fahrenheit_to_Rankine                     - Metric_Tonnes_to_Tons
+      - Kelvin_to_Fahrenheit
+      - Kelvin_to_Celsius
+      - Fahrenheit_to_Kelvin
+      - Fahrenheit_to_Celsius
+      - Celsius_to_Fahrenheit
+      - Celsius_to_Kelvin
+      - Rankine_to_Fahrenheit
+      - Fahrenheit_to_Rankine
 
-  - Speed_Distance() function list          - Volumes() function list
-
-      - MPH_to_KPH                                 - Liters_to_Gallons
-      - KPH_to_MPH                                 - Gallons_to_Liters
-      - MPH_to_Meters_per_Second                   - Ounces_to_Milliliters
-      - Meters_per_Second_to_MPH                   - Milliliters_to_Ounces
-      - Meters_per_Second_to_KPH                   - Cubic_Centimeter_to_Cubic_Inch
-      - KPH_to_Meters_per_Second                   - Cubic_Inch_to_Cubic_Centimeter
-      - Miles_to_Kilometers
-      - Kilometers_to_Miles                    - Times() function list
-      - Light_Years_to_Kilometers
-      - Kilometers_to_Light_Years                  - Date_to_Timestamp
-      - Light_Years_to_Miles                       - Timestamp_to_Date
+  - Speed_Distance() function list
+  
+      - MPH_to_KPH
+        KPH_to_MPH
+        MPH_to_Meters_per_Second
+        Meters_per_Second_to_MPH
+        Meters_per_Second_to_KPH
+        KPH_to_Meters_per_Second   
+      - Light_Years_to_Miles
       - Miles_to_Light_Years
+      - Light_Years_to_Kilometers
+      - Kilometers_to_Light_Years
       - Yards_to_Meters
       - Meters_to_Yards
       - Inch_to_Centimeter
@@ -89,3 +87,28 @@ ubConvert Unit Conversion Classes -
       - Miles_to_Astronomical_Unit
       - Astronomical_Unit_to_Kilometers
       - Kilometers_to_Astronomical_Unit
+      
+  - Weights() function list
+
+     - Grams_to_Ounces
+     - Ounces_to_Grams
+     - Kilograms_to_Pounds
+     - Pounds_to_Kilograms
+     - Kilograms_to_Tons
+     - Tons_to_Kilograms
+     - Tons_to_Metric_Tonnes
+     - Metric_Tonnes_to_Tons
+     
+  - Volumes() function list
+
+     - Liters_to_Gallons
+     - Gallons_to_Liters
+     - Ounces_to_Milliliters
+     - Milliliters_to_Ounces
+     - Cubic_Centimeter_to_Cubic_Inch
+     - Cubic_Inch_to_Cubic_Centimeter
+
+  - Times() function list
+
+     - Date_to_Timestamp
+     - Timestamp_to_Date
