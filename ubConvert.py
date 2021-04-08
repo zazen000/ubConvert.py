@@ -7,7 +7,7 @@ import time
 
 def main():
     """
-    ubConvert conversion module
+    ubConvert Conversion Module
     Utility_Belt Designs, Tacoma, WA
     @author: ZennDogg
 
